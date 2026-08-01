@@ -14,8 +14,32 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     background:#f5f7fb;
+}
+/* list to acceess all toggles */
+body.dark{
+background-color: #222;
+}
+body.dark p{
+color: white;
+}
+body.dark dd{
+color: white;
+}
+body.dark h1{
+color: white;
+}
+body.dark h2{
+color: white;
+}
+body.dark .hero_1{
+background-color: #d9d9e0;
+box-shadow: inset 0 4px 10px rgba(90, 89, 89, 0.4);
 
 }
+body.dark .form{
+background-color: #333;
+}
+
 
 /* NAV_BAR */
 .navbar{
@@ -218,6 +242,7 @@ body{
     gap:1.5rem;
     justify-content:center;
     margin-top: 9rem;
+    
 }
 
 .card{

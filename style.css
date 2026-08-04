@@ -25,6 +25,10 @@ color: white;
 body.dark dd{
 color: white;
 }
+body.dark ul{
+color: white;
+}
+
 body.dark h1{
 color: white;
 }
@@ -248,18 +252,22 @@ background-color: #333;
 
 
 .container{
-    width:min(90%,75rem);
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+    width:min(90%,75rem); */
     display:flex;
     flex-wrap:wrap;
-    gap:1.5rem;
+    gap:2rem;
     justify-content:center;
     align-items: center;
     margin-top: 9rem;
-    margin-left: 5.5%;
+    margin-left: 4%;
     
 }
 
 .card{
+    height:22rem;
     flex:1 1 18rem;
     max-width:22rem;
 
@@ -283,10 +291,10 @@ background-color: #333;
 }
 /* paddind of two containers */
 .programming{
-padding: 2rem;
+/* padding: 2rem; */
 }
 .design{
-    padding: 1.4rem;
+    /* padding: 1.4rem; */
 }
 
 
@@ -305,6 +313,16 @@ padding: 2rem;
 .card p{
     font-size:clamp(.95rem,1.5vw,1.1rem);
     line-height:1.6;
+}
+
+.card ul{
+    padding-left: 4rem;
+    margin: 0;
+}
+.card li{
+    margin-bottom: 0.2rem;
+    line-height: 1.4;
+    padding-right: 12rem;
 }
 
 

@@ -160,6 +160,16 @@ background-color: #333;
   padding-block: 10%;
   border: 3 solid #333333;
 }
+.hero_1 h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+.blue{
+    color: #2563eb;
+}
+.black{
+    color: #535050;
+}
 /* ==========================
    TABLET
 ========================== */
@@ -271,6 +281,14 @@ background-color: #333;
 
     transition:.35s ease;
 }
+/* paddind of two containers */
+.programming{
+padding: 2rem;
+}
+.design{
+    padding: 1.4rem;
+}
+
 
 .card:hover{
     transform:translateY(-.5rem);
@@ -573,4 +591,5 @@ background-color: #333;
     .copyright {
         font-size: 0.6rem;
     }
+
 }
